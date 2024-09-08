@@ -42,7 +42,7 @@ docker-compose --version
 restrat
 ```bash
 docker-compose up -d
-``
+```
 ```bash
 Cek Status Kontainer
 ```
