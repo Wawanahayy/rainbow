@@ -20,6 +20,9 @@ sudo systemctl enable docker
 ```bash
 mkdir -p /root/project/run_btc_testnet4/data
 git clone https://github.com/rainbowprotocol-xyz/btc_testnet4
+```
+
+``` bash
 cd btc_testnet4
 ```
 
