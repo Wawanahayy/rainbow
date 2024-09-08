@@ -34,7 +34,18 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.2/docker
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
+# check version
+```bash
+docker-compose --version
+```
+
+restrat
+```bash
+docker-compose up -d
+```
+
 # Start Bitcoin Core by running
+
 ```bash
 docker-compose up -d
 ```
