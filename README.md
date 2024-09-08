@@ -22,3 +22,19 @@ mkdir -p /root/project/run_btc_testnet4/data
 git clone https://github.com/rainbowprotocol-xyz/btc_testnet4
 cd btc_testnet4
 ```
+
+# BITCOIN core or docker-compose install
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+```bash
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
+# Start Bitcoin Core by running
+```bash
+docker-compose up -d
+```
+
+
+bitcoin-cli -testnet4 -rpcuser=JUEPE -rpcpassword=JEPE -rpcport=5000 createwallet JACKPOT
