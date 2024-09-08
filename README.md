@@ -50,7 +50,6 @@ docker ps
 ```
 
 
-
 # Start Bitcoin Core by running
 
 ```bash
