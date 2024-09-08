@@ -1,4 +1,6 @@
-# rainbow
+# rainbow protocol
+
+#install
 
 ```bash
 sudo apt-get update
