@@ -43,8 +43,10 @@ restrat
 ```bash
 docker-compose up -d
 ```
+
+check status contaianer
 ```bash
-Cek Status Kontainer
+docker ps
 ```
 
 
