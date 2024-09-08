@@ -39,5 +39,5 @@ docker-compose up -d
 docker exec -it bitcoind /bin/bash
 ```
 ```bash
-bitcoin-cli -testnet4 -rpcuser=JUEPE -rpcpassword=JEPE -rpcport=5000 createwallet JACKPOT
+bitcoin-cli -testnet4 -rpcuser=deno -rpcpassword=demo -rpcport=5000 createwallet rbo
 ```
