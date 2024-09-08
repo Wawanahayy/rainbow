@@ -35,6 +35,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```bash
 docker-compose up -d
 ```
-
-
+```bash
+docker exec -it bitcoind /bin/bash
+```
+```bash
 bitcoin-cli -testnet4 -rpcuser=JUEPE -rpcpassword=JEPE -rpcport=5000 createwallet JACKPOT
+```
