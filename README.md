@@ -15,3 +15,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
+
+# create/clone repo
+```bash
+mkdir -p /root/project/run_btc_testnet4/data
+git clone https://github.com/rainbowprotocol-xyz/btc_testnet4
+cd btc_testnet4
+```
